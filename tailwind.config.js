@@ -7,11 +7,14 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xss: "425px",
+      xsss: "310px",
+      xss: "400px",
       xs: "475px",
       sm: "640px",
-      ms: "700",
+      smm: "590px",
+      ms: "701",
       md: "768px",
+      smd: "820px",
       lmd: "950px",
       lg: "1024px",
       xl: "1280px",
