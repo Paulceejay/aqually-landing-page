@@ -35,6 +35,7 @@ module.exports = {
         gradientColor1: "#3C17C2",
         gradientColor2: "#EE5C0D",
         productsBg: "#FBFBFB",
+        chevronColor: "#828282",
       },
       boxShadow: {
         "product-shadow": " 8px 4px 120px rgba(31, 31, 31, 0.2)",

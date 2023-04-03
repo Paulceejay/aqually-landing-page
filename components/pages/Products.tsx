@@ -35,11 +35,11 @@ const Products = () => {
         <h1 className="font-DmSans font-medium text-center text-darkColor text-5xl">
           Products
         </h1>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 bg-productsBg lmd:mt-16 mt-12">
+        <div className="grid lmd:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 bg-productsBg lmd:mt-16 mt-12">
           {products.map((prod) => (
-            <div className="bg-productsBg p-3 shadow-product-shadow rounded-xl">
+            <div key={prod.src} className="bg-productsBg p-3 shadow-product-shadow rounded-xl lmd:w-full sm:w-11/12 xs:w-8/12 mx-auto">
               <Image
-                className="w-full h-[260px] p-[2px]"
+                className="w-full xl:h-[260px] lmd:h-[210px] h-[260px] p-[2px]"
                 src={prod.src}
                 alt=""
                 width={150}
@@ -47,12 +47,12 @@ const Products = () => {
               />
               {/* <p className="w-[250px] h-[250px] p-[2px] bg-product1-bg-img rounded-xl"></p> */}
               <div className="w-full flex justify-between font-DmSans text-xl text-darkColor my-5">
-                <p className="font-medium ">{prod.name}</p>
+                <p className="font-medium">{prod.name}</p>
                 <p className="font-bold">{prod.price}</p>
               </div>
               {star}
               <div className="w-full flex justify-between my-3">
-                <p className="font-DmSans text-base font-normal text-darkColor">
+                <p className="font-DmSans lmd:text-lg text-base font-normal text-darkColor">
                   5kg/portion
                 </p>
                 <ShoppingCart className="text-primaryColor" />
