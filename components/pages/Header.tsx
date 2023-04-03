@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   return (
-    <header className="w-11/12 lg:w-10/12 xl:max-w-screen-xl lg:max-w-full mx-auto bg-white relative z-20">
+    <header className="w-11/12 lg:w-10/12 xl:max-w-screen-xl lg:max-w-full mx-auto bg-white lmd:relative fixed left-0 right-0 top-0 z-20 lmd:py-0">
       <div className="flex justify-between">
         <div className="lg:w-[10%] sm:w-[15%] w-[20%] xl:pt-3">
           <Aqually className="xl:w-full w-11/12" />

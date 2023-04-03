@@ -4,7 +4,7 @@ import ShoppingCartUi from "../ui/ShoppingCartUi";
 
 const NavBarContainer = () => {
     return (
-      <div className="lmd:hidden block w-full">
+      <div className="lmd:hidden block w-full pb-10">
           <ul className="flex flex-col justify-center items-center gap-10 font-Inter font-normal md:text-base text-sm text-darkColor">
             <li className="text-primaryColor font-medium">
               <Link href="/">HOME</Link>

@@ -9,7 +9,7 @@ const AboutUs = () => {
         <p className="font-DmSans font-normal text-center xl:text-xl md:text-base sm:text-sm text-xs text-graySecondaryColor my-5">
           At Aqually, we pride ourselves with providing the highest quality
           seafood to our customers. Our seafoods are caught using traditional
-          and environmentally-friendly methods, ensuring that the ocean's
+          and environmentally-friendly methods, ensuring that the ocean&#39;s
           delicate ecosystem is preserved for future generations. We offer a
           wide variety of fish, including salmon, tuna, cod, halibut, crabs and
           many more. All of our fish are hand-selected by our expert fishmongers
@@ -17,7 +17,13 @@ const AboutUs = () => {
           that the best fish is the freshest fish, which is why we prioritize
           quality above all else.
         </p>
-        <Image className="w-full lg:mt-10 my-5" src="/images/man-hand.jpg" alt="" width={200} height={150} />
+        <Image
+          className="w-full lg:mt-10 my-5"
+          src="/images/man-hand.jpg"
+          alt=""
+          width={200}
+          height={150}
+        />
       </section>
     );
 }

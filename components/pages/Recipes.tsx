@@ -15,13 +15,16 @@ const Recipes = () => {
         Recipes
       </h1>
       <p className="font-DmSans font-normal lmd:text-xl text-graySecondaryColor text-base lmd:max-w-screen-lmd w-10/12 mx-auto text-center lg:my-10 my-8">
-        We've got plenty of inspiration from the best chefs around the world.
-        Discover recipes for cod, salmon, tuna, sea bass, hake, mackerel,
+        We&#39; ve got plenty of inspiration from the best chefs around the
+        world. Discover recipes for cod, salmon, tuna, sea bass, hake, mackerel,
         haddock and plenty more.
       </p>
       <div className="grid lmd:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-4 bg-productsBg lmd:mt-16 mt-12">
         {recipes.map((rec) => (
-          <div key={rec.src} className="bg-productsBg p-3 shadow-product-shadow rounded-xl lmd:w-full sm:w-11/12 xs:w-8/12 mx-auto">
+          <div
+            key={rec.src}
+            className="bg-productsBg p-3 shadow-product-shadow rounded-xl lmd:w-full sm:w-11/12 xs:w-8/12 mx-auto"
+          >
             <Image
               className="w-full xl:h-[260px] lmd:h-[210px] h-[260px] p-[2px]"
               src={rec.src}
