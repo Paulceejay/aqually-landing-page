@@ -1,4 +1,4 @@
-const ShoppingCart = () => {
+const ShoppingCart = (props:any) => {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -6,7 +6,7 @@ const ShoppingCart = () => {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className="xl:w-6 xl:h-6 w-5 h-5 lmd:pt-0.5"
+        className={`xl:w-6 xl:h-6 w-5 h-5 lmd:pt-0.5 ${props.className}`}
       >
         <path
           strokeLinecap="round"

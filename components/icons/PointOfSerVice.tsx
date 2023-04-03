@@ -1,9 +1,9 @@
 const PointOfService = () => {
     return (
       <svg
-        fill="#000000"
-        height="15"
-        width="15"
+        fill="#F2F2F2"
+        height="25"
+        width="25"
         version="1.1"
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
