@@ -6,7 +6,7 @@ const AboutUs = () => {
         <h1 className="font-medium font-DmSans to-darkColor text-center text-darkColor lg:text-5xl text-4xl">
           About Us
         </h1>
-        <p className="font-DmSans font-normal text-center xl:text-xl md:text-base sm:text-sm text-xs text-graySecondaryColor my-5">
+        <p className="font-DmSans font-normal text-center xl:text-xl md:text-lg text-base  text-graySecondaryColor my-5">
           At Aqually, we pride ourselves with providing the highest quality
           seafood to our customers. Our seafoods are caught using traditional
           and environmentally-friendly methods, ensuring that the ocean&#39;s

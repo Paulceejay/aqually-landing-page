@@ -13,7 +13,7 @@ const ExploreMarket = () => {
             </span>
             Straight From Our Waters
           </h1>
-          <p className="xl:w-[802px] lg:w-9/12 lmd:w-8/12 smd:w-[63%] md:w-[70%] sm:w-9/12 xss:w-[75%] w-full mx-auto xl:text-2xl lg:text-xl lmd:text-lg sm:text-base text-[10px] font-light font-Inter text-center text-grayPrimaryColor my-3">
+          <p className="xl:w-[802px] lg:w-9/12 lmd:w-8/12 smd:w-[63%] md:w-[70%] sm:w-9/12 xss:w-[75%] w-full mx-auto xl:text-2xl lg:text-xl lmd:text-lg text-base  font-light font-Inter text-center text-grayPrimaryColor my-3">
             We believe that the best fish is the freshest fish, which is why we
             prioritize quality above everything else.
           </p>
