@@ -17,7 +17,7 @@ const ExploreMarket = () => {
             We believe that the best fish is the freshest fish, which is why we
             prioritize quality above everything else.
           </p>
-          <div className="flex justify-center items-center lmd:gap-5 gap-2 my-10">
+          <div className="flex justify-center items-center lmd:gap-5 gap-3 my-10 xs:flex-row flex-col">
             <ShoppingCartUi className="lg:py-[14px]" />
             <ExploreProuct />
           </div>

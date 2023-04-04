@@ -7,7 +7,7 @@ const NavBar = (props:any) => {
         viewBox="0 0 24 24"
         strokeWidth="1.5"
         stroke="currentColor"
-        className={`xss:w-9 xss:h-9 w-6 h-6 ${props.className}`}
+        className={`h-10 w-10 ${props.className}`}
       >
         <path
           strokeLinecap="round"

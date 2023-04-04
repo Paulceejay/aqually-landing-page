@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
       </h1>
       <div className="my-8 flex justify-between gap-3 flex-wrap">
         {contents.map((cont) => (
-          <div key={cont.id} className="flex  justify-between gap-2">
+          <div key={cont.id} className="flex  justify-between gap-2 lmd:my-0 my-2">
             <p className="p-3 bg-primaryColor text-white rounded-lg">
               {cont.icon}
             </p>

@@ -23,7 +23,7 @@ const Recipes = () => {
         {recipes.map((rec) => (
           <div
             key={rec.src}
-            className="bg-productsBg p-3 shadow-product-shadow rounded-xl lmd:w-full sm:w-11/12 xs:w-8/12 mx-auto"
+            className="bg-productsBg p-3 shadow-product-shadow rounded-xl lmd:w-full w-11/12 mx-auto"
           >
             <Image
               className="w-full xl:h-[260px] lmd:h-[210px] h-[260px] p-[2px]"
